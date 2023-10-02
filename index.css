@@ -50,10 +50,17 @@ body {
   color: #000;
 }
 
+.body{
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeee;
+}
+
 .wrapper{
   padding: 40px;
   display: flex;
   flex-direction: row-reverse;
+  width: 1170px;
 }
 
 .main{
@@ -63,6 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  background-color: white;
 }
 
 .about{
@@ -208,3 +216,4 @@ body {
 .about__text{
   line-height: 24px;
 }
+
