@@ -204,3 +204,7 @@ body {
 .left{
   margin-left: 40px;
 }
+
+.about__text{
+  line-height: 24px;
+}
